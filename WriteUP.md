@@ -21,4 +21,4 @@ the vul options and other is restricted to verified acount and not only (so no p
 
 ##### What is the top operating system for MYSQL servers in Google's ASN?    
 
-![](images\Google_Nginx_fav_protocol.png)
+![](images/Google_Nginx_fav_protocol.png)

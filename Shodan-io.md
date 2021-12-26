@@ -18,7 +18,10 @@ the vul options and other is restricted to verified acount and not only (so no p
 > How do we find Eternal Blue exploits on Shodan? ||  vuln:ms17-010
 
 # Task 3 Google & Filtering 
-
+NOTE: the current awnser is not the one in the room the awnser change trought time 
+>resources : https://thedarksource.com/shodan-cheat-sheet/
 ##### What is the top operating system for MYSQL servers in Google's ASN?    
 
-![](images/Google_Nginx_fav_protocol.png)
+>in this picture there are 2 filter ASN and product 
+
+![](images/shodan_images/Google_Nginx_fav_protocol.png)

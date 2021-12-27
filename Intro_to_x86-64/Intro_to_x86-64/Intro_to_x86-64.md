@@ -4,13 +4,13 @@
 
 
 
-Task 1 Description and Objectives 
-Task 2 Introduction 
-Task 3 If Statements
-Task 4 If Statements Continued 
-Task 5 Loops 
-Task 6 crackme1 
-Task 7 crackme2 
+Task 1 Description and Objectives /
+Task 2 Introduction /
+Task 3 If Statements /
+Task 4 If Statements Continued /
+Task 5 Loops /
+Task 6 crackme1 /
+Task 7 crackme2 /
 
 
 
@@ -63,4 +63,37 @@ INSTRUCTIONS EXPLAINED
     destination = destination - source
     ////
 
-    imulq source, destination: destination = destination * source
+    imulq source, destination
+    ////
+    destination = destination * source
+    ////
+
+    salq source, destination
+    bit shifted 
+    ///////////////////////////////////////////////
+    ex: sal
+    hex preresentations of sal $1, 0x16 ()
+    <<--------------------------------------
+    0 | 8 | 4 | 2 | 1 | XX | 8 | 4 | 2 | 1 | 
+    1 | 0 | 0 | 0 | 1 | XX | 0 | 1 | 1 | 0 |
+    2 | 0 | 0 | 1 | 0 | XX | 1 | 1 | 0 | 0 |
+    3 | 0 | 1 | 0 | 1 | XX | 1 | 0 | 0 | 0 |
+    4 | 1 | 0 | 1 | 1 | XX | 0 | 0 | 0 | 0 |
+    as you see the bit have shifted to 1 in the left
+    so after 4 sal 0x16 have become 0xB0
+    ///////////////////////////////////////////////
+
+    sar source, destination
+    ///////////////////////////////////////////////
+    ex: sar 
+    hex preresentations of sar $1, 0x16 ()
+    <<--------------------------------------
+    0 | 8 | 4 | 2 | 1 | XX | 8 | 4 | 2 | 1 | 
+    1 | 0 | 0 | 0 | 1 | XX | 0 | 1 | 1 | 0 |
+    2 | 0 | 0 | 0 | 0 | XX | 1 | 0 | 1 | 1 |
+    3 | 0 | 0 | 0 | 0 | XX | 0 | 1 | 0 | 1 |
+    4 | 0 | 0 | 0 | 0 | XX | 0 | 0 | 1 | 0 |
+    as you see the bit have shifted to 1 in the Right
+    so after 4 sal 0x16 have become 0x02
+
+    

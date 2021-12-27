@@ -4,13 +4,13 @@
 
 
 
-Task 1 Description and Objectives /
-Task 2 Introduction /
-Task 3 If Statements /
-Task 4 If Statements Continued /
-Task 5 Loops /
-Task 6 crackme1 /
-Task 7 crackme2 /
+Task 1 Description and Objectives \
+Task 2 Introduction \
+Task 3 If Statements \
+Task 4 If Statements Continued \
+Task 5 Loops \
+Task 6 crackme1 \
+Task 7 crackme2 \
 
 
 
@@ -96,4 +96,20 @@ INSTRUCTIONS EXPLAINED
     as you see the bit have shifted to 1 in the Right
     so after 4 sal 0x16 have become 0x02
 
-    
+    xorq source, destination 
+    ////
+    destination = destination XOR source
+    [XOR Gate wikipedia page](https://en.wikipedia.org/wiki/XOR_gate)
+    ////
+
+    andq source, destination: 
+    ////
+    destination = destination & source
+    [AND Gate Wikipedia page](https://en.wikipedia.org/wiki/AND_gate)
+    ////
+
+    andq source, destination: 
+    ////
+    destination = destination & source
+    [OR Gate wikipedia](https://en.wikipedia.org/wiki/OR_gate)
+    ////

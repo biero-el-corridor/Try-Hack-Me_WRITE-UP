@@ -14,13 +14,13 @@ Task 7 crackme2
 
 
 
-Task 1 : Description and Objectives 
+## Task 1 : Description and Objectives 
 
 KEY INFO 
 + Whe will use the AT&T synatax 
 + Username and password fot the room is tryhackme/reismyfavl33t (ssh). 
 
-TASK 2 : Introduction 
+## TASK 2 : Introduction 
 
 KEY INFO 
 + code is translated to computer code when compiled. 
@@ -74,11 +74,12 @@ INSTRUCTIONS EXPLAINED
     ex: sal
     hex preresentations of sal $1, 0x16 ()
     <<--------------------------------------
-    0 | 8 | 4 | 2 | 1 | XX | 8 | 4 | 2 | 1 | 
-    1 | 0 | 0 | 0 | 1 | XX | 0 | 1 | 1 | 0 |
-    2 | 0 | 0 | 1 | 0 | XX | 1 | 1 | 0 | 0 |
-    3 | 0 | 1 | 0 | 1 | XX | 1 | 0 | 0 | 0 |
-    4 | 1 | 0 | 1 | 1 | XX | 0 | 0 | 0 | 0 |
+0 | 8 | 4 | 2 | 1 | XX | 8 | 4 | 2 | 1 | 
+1 | 0 | 0 | 0 | 1 | XX | 0 | 1 | 1 | 0 |
+2 | 0 | 0 | 1 | 0 | XX | 1 | 1 | 0 | 0 |
+3 | 0 | 1 | 0 | 1 | XX | 1 | 0 | 0 | 0 |
+4 | 1 | 0 | 1 | 1 | XX | 0 | 0 | 0 | 0 |
+
     as you see the bit have shifted to 1 in the left
     so after 4 sal 0x16 have become 0xB0
     ///////////////////////////////////////////////
@@ -88,11 +89,12 @@ INSTRUCTIONS EXPLAINED
     ex: sar 
     hex preresentations of sar $1, 0x16 ()
     <<--------------------------------------
-    0 | 8 | 4 | 2 | 1 | XX | 8 | 4 | 2 | 1 | 
-    1 | 0 | 0 | 0 | 1 | XX | 0 | 1 | 1 | 0 |
-    2 | 0 | 0 | 0 | 0 | XX | 1 | 0 | 1 | 1 |
-    3 | 0 | 0 | 0 | 0 | XX | 0 | 1 | 0 | 1 |
-    4 | 0 | 0 | 0 | 0 | XX | 0 | 0 | 1 | 0 |
+0 | 8 | 4 | 2 | 1 | XX | 8 | 4 | 2 | 1 | 
+1 | 0 | 0 | 0 | 1 | XX | 0 | 1 | 1 | 0 |
+2 | 0 | 0 | 0 | 0 | XX | 1 | 0 | 1 | 1 |
+3 | 0 | 0 | 0 | 0 | XX | 0 | 1 | 0 | 1 |
+4 | 0 | 0 | 0 | 0 | XX | 0 | 0 | 1 | 0 |
+
     as you see the bit have shifted to 1 in the Right
     so after 4 sal 0x16 have become 0x02
 
@@ -114,14 +116,14 @@ INSTRUCTIONS EXPLAINED
     [OR Gate wikipedia](https://en.wikipedia.org/wiki/OR_gate)
     ////
 
-Task 3 If Statements 
+## Task 3 If Statements 
 
 KEY INFO 
 
 + there is assembly fontions for use if (cmp and test)
 + there is jump instructions with specificity for go to specific memory space
 
-Task 4 If Statements Continued 
+## Task 4 If Statements Continued 
 
 KEY INFO 
 
@@ -164,4 +166,4 @@ What operator is used to change the value of var_8h, input the symbol as your an
     I recomend you to go to the wikipedia page of the AND logical gate
 
 
-
+## Task 5 Loops 

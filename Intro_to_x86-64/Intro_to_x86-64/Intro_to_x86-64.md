@@ -215,4 +215,28 @@ After this report we search in the main funtion , and see that a . delimiter is 
 </p>
 
 
+## sTask 7 crackme2
 
+the same as the crackme1 , we see the sting with the visual mode\
+
+this time this is not a string but a path that we see. 
+
+<p align="center">
+    <img src=""/>
+</p>
+
+whe confirm that a file is read by the presence of the fontions fread and fopen in the funtions list 
+
+<p align="center">
+    <img src=""/>
+</p>
+
+but the paswword dont work\
+
+after searching a bit we see a reversing dtring fontions inthe assembly; 
+
+<p align="center">
+    <img src=""/>
+</p>
+
+so we reverse the string and that work. 

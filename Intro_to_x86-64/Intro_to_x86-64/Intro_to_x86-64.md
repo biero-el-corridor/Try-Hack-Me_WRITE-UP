@@ -190,6 +190,29 @@ QUESTIONS
 
     We can see that a and operator is use check the wikipedia page of the AND logical gate. 
 
-## Task 6 crackme1 
+## sTask 6 crackme1 
+
+for this one whe will use the v funtions in radare2, this funtions show the hex and string value of the file. \
+
+after made this command
+
+    r2 -d crackme1
+    aaa
+    v @main 
+
+we can see the moment where the sting is present\
+and a other interesting thing , is the presence of XXX.X.X.X after the "enter the password"
+
+<p align="center">
+    <img src="https://github.com/biero-el-corridor/Try-Hack-Me_WRITE-UP/blob/main/Intro_to_x86-64/picture/crackme1-string.png"/>
+</p>
+
+
+After this report we search in the main funtion , and see that a . delimiter is set and the begening in 127
+
+<p align="center">
+    <img src="https://github.com/biero-el-corridor/Try-Hack-Me_WRITE-UP/blob/main/Intro_to_x86-64/picture/crackme1-dot.png"/>
+</p>
+
 
 

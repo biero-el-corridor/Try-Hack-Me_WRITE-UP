@@ -10,7 +10,7 @@ Task 3 If Statements \
 Task 4 If Statements Continued \
 Task 5 Loops \
 Task 6 crackme1 \
-Task 7 crackme2 \
+Task 7 crackme2 
 
 
 
@@ -113,3 +113,55 @@ INSTRUCTIONS EXPLAINED
     destination = destination & source
     [OR Gate wikipedia](https://en.wikipedia.org/wiki/OR_gate)
     ////
+
+Task 3 If Statements 
+
+KEY INFO 
+
++ there is assembly fontions for use if (cmp and test)
++ there is jump instructions with specificity for go to specific memory space
+
+Task 4 If Statements Continued 
+
+KEY INFO 
+
++ db is use for make a breakoint to a specific memory area, this is relly usefull for see the advence of the value
++ dr is use for view the hex value of the different 64 bit register
++ px @var_name allow to see the content of the var_name
++ ds allow to go to the nex breakpoint of end of the program if theyr are no breakpoint. 
+
+QUESTIONS
+
+1 as we see var_8h is present 2 time \
+
+    when var_8h get the vlalue 0x63
+    movl $0x63, var_8h
+
+    and when var_8h have a and operator use with 0x64
+    movl $0x64, var_8h
+
+hex  | 8 | 4 | 2 | 1 | XX | 8 | 4 | 2 | 1 |
+|----|---|---|---|---|----|---|---|---|---|
+0x63 | 0 | 1 | 1 | 0 | XX | 0 | 1 | 0 | 0 |
+0X64 | 0 | 1 | 1 | 0 | XX | 0 | 0 | 1 | 1 |
+and  | 0 | 1 | 1 | 0 | XX | 0 | 0 | 0 | 0 |
+
+    for the purpose of the walkthrougt i dont translta to decimal value. 
+
+2 what is the value of var_ch before the popq and ret instructions? \
+
+    watch closely and you see that the value dont chage
+
+3 
+
+What is the value of var_4h before the popq and ret instructions? \
+
+    watch closely and you see that a substitutions funtions ocure a the end between 2 hex value
+
+4 
+What operator is used to change the value of var_8h, input the symbol as your answer(symbols include +, -, *, /, &, |): \
+
+    I recomend you to go to the wikipedia page of the AND logical gate
+
+
+

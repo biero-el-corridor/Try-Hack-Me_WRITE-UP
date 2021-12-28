@@ -152,20 +152,44 @@ and  | 0 | 1 | 1 | 0 | XX | 0 | 0 | 0 | 0 |
 
     for the purpose of the walkthrougt i dont translta to decimal value. 
 
-2 what is the value of var_ch before the popq and ret instructions? \
+2 what is the value of var_ch before the popq and ret instructions? 
 
     watch closely and you see that the value dont chage
 
-3 
-
-What is the value of var_4h before the popq and ret instructions? \
+3 What is the value of var_4h before the popq and ret instructions? 
 
     watch closely and you see that a substitutions funtions ocure a the end between 2 hex value
 
-4 
-What operator is used to change the value of var_8h, input the symbol as your answer(symbols include +, -, *, /, &, |): \
+4 What operator is used to change the value of var_8h, input the symbol as your answer(symbols include +, -, *, /, &, |): 
 
     I recomend you to go to the wikipedia page of the AND logical gate
 
 
 ## Task 5 Loops 
+
+KEY INFO
+
++ Two type of loop are used (for and while)
++ make a db in each of the jump sections for see the advencement of the program
+
+QUESTIONS
+
+1 What is the value of var_8h on the second iteration of the loop?
+
+    see the exemple in the introdutions
+
+2 What is the value of var_ch on the second iteration of the loop?
+
+    We can see that a and operator is use check the wikipedia page of the AND logical gate. 
+
+3 What is the value of var_8h at the end of the program?
+
+    see the exemple in the introdutions
+
+4 What is the value of var_ch at the end of the program?
+
+    We can see that a and operator is use check the wikipedia page of the AND logical gate. 
+
+## Task 6 crackme1 
+
+

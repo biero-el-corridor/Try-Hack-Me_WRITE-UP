@@ -23,12 +23,14 @@ The main funtion
 </p>
 
 We can see 2 funtions call 
+
     sym.vuln
     sym.gfl
 
 We can assume that the name vulm is suspicious , so we go in there. \
 
 In this funtions we can see one thing interesting 
+
     if the strcmp is not succeful the bin is closed
     The test value before the JNE and the JNE
 

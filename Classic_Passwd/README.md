@@ -9,17 +9,17 @@ Task 1 Get the flag
 
 For this challenge we have a file to download. 
 
-We know that is a reverse challenge so, we first need to know what file type this file is 
+We know that is a reverse challenge so, we first need to know what file type this file is. 
 
 <p align="center">
-    <img src="https://github.com/biero-el-corridor/Try-Hack-Me_WRITE-UP/blob/main/sample/THM_logo.png"/>
+    <img src="https://github.com/biero-el-corridor/Try-Hack-Me_WRITE-UP/blob/main/Classic_Passwd/picture/file_type.png"/>
 </p>
 
-after that we run radare 2 to see what it's inside this binary
+After that, we run radare 2 to see what it's inside this binary.
 
 The main funtion
 <p align="center">
-    <img src="https://github.com/biero-el-corridor/Try-Hack-Me_WRITE-UP/blob/main/sample/THM_logo.png"/>
+    <img src="https://github.com/biero-el-corridor/Try-Hack-Me_WRITE-UP/blob/main/Classic_Passwd/picture/main_func.png"/>
 </p>
 
 We can see 2 funtions call 
@@ -33,7 +33,7 @@ In this funtions we can see one thing interesting
     The test value before the JNE and the JNE
 
 <p align="center">
-    <img src="https://github.com/biero-el-corridor/Try-Hack-Me_WRITE-UP/blob/main/sample/THM_logo.png"/>
+    <img src="https://github.com/biero-el-corridor/Try-Hack-Me_WRITE-UP/blob/main/Classic_Passwd/picture/if_to_rev.png"/>
 </p>
 
 In the challenge intro the creator speak about bypassing password.\
@@ -41,24 +41,24 @@ In the challenge intro the creator speak about bypassing password.\
 And after analyse the second funtions we can see that if the flag is correct in vuln so the flag is given in gfl.\
 
 <p align="center">
-    <img src="https://github.com/biero-el-corridor/Try-Hack-Me_WRITE-UP/blob/main/sample/THM_logo.png"/>
+    <img src="https://github.com/biero-el-corridor/Try-Hack-Me_WRITE-UP/blob/main/Classic_Passwd/picture/preflag.png"/>
 </p>
 
 After a bit of research i found the awnser in a stack overflow tread\
 https://stackoverflow.com/questions/14267081/difference-between-je-jne-and-jz-jnz
 
-so we can modifi the 75 value that define JNE to 74 , 74 is the hex value to define JE. 
+So we can modifi the 75 value that define JNE to 74 , 74 is the hex value to define JE. \
 
-This actions will cause the reverse of the if. 
+This actions will cause the reverse of the if. \
 
 I use hexeditor to find and modify the 75 value in the hex
 
 <p align="center">
-    <img src="https://github.com/biero-el-corridor/Try-Hack-Me_WRITE-UP/blob/main/sample/THM_logo.png"/>
+    <img src="https://github.com/biero-el-corridor/Try-Hack-Me_WRITE-UP/blob/main/Classic_Passwd/picture/75.png"/>
 </p>
 
 After modifi 75 to 74 we run the bin and tada the flag popup.
 
 <p align="center">
-    <img src="https://github.com/biero-el-corridor/Try-Hack-Me_WRITE-UP/blob/main/sample/THM_logo.png"/>
+    <img src="https://github.com/biero-el-corridor/Try-Hack-Me_WRITE-UP/blob/main/Classic_Passwd/picture/flag.png"/>
 </p>
